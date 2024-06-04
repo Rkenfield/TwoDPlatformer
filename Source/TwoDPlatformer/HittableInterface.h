@@ -7,7 +7,7 @@
 #include "HittableInterface.generated.h"
 
 // This class does not need to be modified.
-UINTERFACE(MinimalAPI)
+UINTERFACE(MinimalAPI,Blueprintable)
 class UHittableInterface : public UInterface
 {
 	GENERATED_BODY()
